@@ -1,0 +1,26 @@
+obj1 = ["val1", "val2"] #different object
+obj2 = ["val1", "val2"] #different object
+
+obj3 = obj1 #obj3 is same object as obj1
+
+print("case 1:")
+if obj1 is obj2:
+    print("same objects")
+else:
+    print("different objects")
+if  obj1 is obj3:
+    print("same objects")
+else:
+    print("different objects")
+if   obj1 == obj2:
+    print("different objects,same value")
+else:
+    print("different objects")
+if    obj3 == obj2:
+    print("different object,same value")
+else:
+    print("different objects")
+if     obj1 == obj3:
+    print("same object same value")
+else:
+    print("different object")
